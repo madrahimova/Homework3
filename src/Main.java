@@ -1,5 +1,8 @@
 import java.util.Locale;
 
+/**
+ * This comment is for pull-request only
+ */
 public class Main {
     public static void call(Class cls, String methodName) throws Exception {
         cls.getDeclaredMethod(methodName).invoke(null);
